@@ -34,13 +34,14 @@
 
 ### Integrante 4
 
-- **Nombre:** Integrante 4
+- **Nombre:** Erick Alejandro Cordova Viteri
 - **Cédula:** 
-- **Rol:** 
-- **Función que implementó:** 
-- **Rama de trabajo:** feature/integrante-4
+- **Rol:** Desarrollador
+- **Función que implementó:** percentage()
+- **Rama de trabajo:** feature/erick
 - **Contribución:**
-  - 
+  - Implementó la función de porcentaje
+  - Añadió tests unitarios para percentage()
 
 ---
 
@@ -51,7 +52,7 @@ En esta sección, cada integrante añade una línea con su reflexión sobre el p
 1. Integrante 1: 
 2. Integrante 2: 
 3. Integrante 3: 
-4. Integrante 4: 
+4. Erick Cordova: Git facilita mucho el trabajo en equipo cuando se usan ramas correctamente.
 
 ---
 

@@ -24,11 +24,12 @@ def divide(a, b):
 
 # ============================================================
 # ZONA DE FUNCIONES NUEVAS - Cada integrante añade la suya aquí
-# Integrante 1: square_root(a)
-# Integrante 2: power(a, b)
-# Integrante 3: modulo(a, b)
-# Integrante 4: percentage(a, b)
 # ============================================================
+
+
+def percentage(value, percent):
+    """Calcula el porcentaje de un valor."""
+    return (value * percent) / 100
 
 
 if __name__ == "__main__":

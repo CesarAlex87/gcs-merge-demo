@@ -35,8 +35,16 @@ class TestOperacionesBasicas:
 
 # ============================================================
 # ZONA DE TESTS NUEVOS - Cada integrante añade los suyos aquí
-# Integrante 1: TestSquareRoot
-# Integrante 2: TestPower
-# Integrante 3: TestModulo
-# Integrante 4: TestPercentage
 # ============================================================
+
+
+class TestPercentage:
+
+    def test_percentage_basic(self):
+        from calculadora import percentage
+        assert percentage(200, 10) == 20.0
+        assert percentage(50, 50) == 25.0
+
+    def test_percentage_zero(self):
+        from calculadora import percentage
+        assert percentage(100, 0) == 0.0
