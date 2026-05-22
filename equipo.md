@@ -24,13 +24,14 @@
 
 ### Integrante 3
 
-- **Nombre:** Integrante 3
+- **Nombre:** Camillie Thais Ayovi Villafuerte
 - **Cédula:** 
-- **Rol:** 
-- **Función que implementó:** 
-- **Rama de trabajo:** feature/integrante-3
+- **Rol:** Desarrolladora
+- **Función que implementó:** modulo()
+- **Rama de trabajo:** feature/camillie
 - **Contribución:**
-  - 
+  - Implementó la función de módulo con validación de divisor cero
+  - Añadió tests unitarios para modulo()
 
 ### Integrante 4
 
@@ -50,7 +51,7 @@ En esta sección, cada integrante añade una línea con su reflexión sobre el p
 
 1. Integrante 1: 
 2. Integrante 2: 
-3. Integrante 3: 
+3. Camillie Ayovi: Los conflictos de merge parecen complicados al inicio pero se resuelven fácilmente con comunicación.
 4. Integrante 4: 
 
 ---

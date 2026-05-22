@@ -35,8 +35,17 @@ class TestOperacionesBasicas:
 
 # ============================================================
 # ZONA DE TESTS NUEVOS - Cada integrante añade los suyos aquí
-# Integrante 1: TestSquareRoot
-# Integrante 2: TestPower
-# Integrante 3: TestModulo
-# Integrante 4: TestPercentage
 # ============================================================
+
+
+class TestModulo:
+
+    def test_modulo_basic(self):
+        from calculadora import modulo
+        assert modulo(10, 3) == 1
+        assert modulo(20, 5) == 0
+
+    def test_modulo_by_zero(self):
+        from calculadora import modulo
+        with pytest.raises(ValueError):
+            modulo(10, 0)

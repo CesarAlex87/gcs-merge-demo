@@ -24,11 +24,14 @@ def divide(a, b):
 
 # ============================================================
 # ZONA DE FUNCIONES NUEVAS - Cada integrante añade la suya aquí
-# Integrante 1: square_root(a)
-# Integrante 2: power(a, b)
-# Integrante 3: modulo(a, b)
-# Integrante 4: percentage(a, b)
 # ============================================================
+
+
+def modulo(a, b):
+    """Calcula el residuo de la división entre dos números."""
+    if b == 0:
+        raise ValueError("No se puede calcular módulo con divisor cero")
+    return a % b
 
 
 if __name__ == "__main__":
