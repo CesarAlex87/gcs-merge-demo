@@ -4,13 +4,14 @@
 
 ### Integrante 1
 
-- **Nombre:** Integrante 1
+- **Nombre:** Daniel Mateo Aguilar Villafuerte
 - **Cédula:** 
-- **Rol:** 
-- **Función que implementó:** 
-- **Rama de trabajo:** feature/integrante-1
+- **Rol:** Desarrollador
+- **Función que implementó:** square_root()
+- **Rama de trabajo:** feature/daniel
 - **Contribución:**
-  - 
+  - Implementó la función de raíz cuadrada con validación de números negativos
+  - Añadió tests unitarios para square_root()
 
 ### Integrante 2
 
@@ -48,7 +49,7 @@
 
 En esta sección, cada integrante añade una línea con su reflexión sobre el proceso de merge y control de versiones:
 
-1. Integrante 1: 
+1. Daniel Aguilar: El proceso de merge me ayudó a entender cómo se integran los cambios en un equipo de desarrollo.
 2. Integrante 2: 
 3. Integrante 3: 
 4. Integrante 4: 

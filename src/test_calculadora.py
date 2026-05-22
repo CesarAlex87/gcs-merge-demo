@@ -35,8 +35,17 @@ class TestOperacionesBasicas:
 
 # ============================================================
 # ZONA DE TESTS NUEVOS - Cada integrante añade los suyos aquí
-# Integrante 1: TestSquareRoot
-# Integrante 2: TestPower
-# Integrante 3: TestModulo
-# Integrante 4: TestPercentage
 # ============================================================
+
+
+class TestSquareRoot:
+
+    def test_square_root_positive(self):
+        from calculadora import square_root
+        assert square_root(25) == 5.0
+        assert square_root(0) == 0.0
+
+    def test_square_root_negative(self):
+        from calculadora import square_root
+        with pytest.raises(ValueError):
+            square_root(-4)

@@ -24,11 +24,15 @@ def divide(a, b):
 
 # ============================================================
 # ZONA DE FUNCIONES NUEVAS - Cada integrante añade la suya aquí
-# Integrante 1: square_root(a)
-# Integrante 2: power(a, b)
-# Integrante 3: modulo(a, b)
-# Integrante 4: percentage(a, b)
 # ============================================================
+
+
+def square_root(a):
+    """Calcula la raíz cuadrada de un número."""
+    import math
+    if a < 0:
+        raise ValueError("No se puede calcular la raíz cuadrada de un número negativo")
+    return math.sqrt(a)
 
 
 if __name__ == "__main__":
