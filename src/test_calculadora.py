@@ -5,7 +5,7 @@ import os
 import pytest
 
 sys.path.insert(0, os.path.dirname(__file__))
-from calculadora import add, subtract, multiply, divide
+from calculadora import add, subtract, multiply, divide, power
 
 
 class TestOperacionesBasicas:
@@ -36,7 +36,18 @@ class TestOperacionesBasicas:
 # ============================================================
 # ZONA DE TESTS NUEVOS - Cada integrante añade los suyos aquí
 # Integrante 1: TestSquareRoot
+
 # Integrante 2: TestPower
+class TestPower:
+    def test_power_positive(self):
+        assert power(2, 3) == 8
+        
+    def test_power_zero(self):
+        assert power(5, 0) == 1
+        
+    def test_power_negative(self):
+        assert power(2, -2) == 0.25
+
 # Integrante 3: TestModulo
 # Integrante 4: TestPercentage
 # ============================================================
