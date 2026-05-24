@@ -5,7 +5,7 @@ import os
 import pytest
 
 sys.path.insert(0, os.path.dirname(__file__))
-from calculadora import add, subtract, multiply, divide, power
+from calculadora import add, subtract, multiply, divide, power, factorial
 
 
 class TestOperacionesBasicas:
@@ -41,13 +41,35 @@ class TestOperacionesBasicas:
 class TestPower:
     def test_power_positive(self):
         assert power(2, 3) == 8
-        
+
     def test_power_zero(self):
         assert power(5, 0) == 1
-        
+
     def test_power_negative(self):
         assert power(2, -2) == 0.25
 
 # Integrante 3: TestModulo
 # Integrante 4: TestPercentage
+# Integrante 5: TestFactorial
 # ============================================================
+
+
+class TestFactorial:
+
+    def test_factorial_zero(self):
+        assert factorial(0) == 1
+
+    def test_factorial_one(self):
+        assert factorial(1) == 1
+
+    def test_factorial_positive(self):
+        assert factorial(5) == 120
+        assert factorial(10) == 3628800
+
+    def test_factorial_negative(self):
+        with pytest.raises(ValueError):
+            factorial(-1)
+
+    def test_factorial_non_integer(self):
+        with pytest.raises(TypeError):
+            factorial(3.5)
